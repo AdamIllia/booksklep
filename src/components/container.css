@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  transition: background-color 1s ease;
+  }
+
+.scroll-container {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+  
+}
+
+.issue-container {
+  scroll-snap-align: start;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  transition: color 0.8s ease;
+  text-align: center;
+}
+
+.issue-image {
+  max-width: 400px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.issue-text h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.issue-text a {
+  color: inherit;
+  font-weight: bold;
+ 
+}
+
+.issue-text a:active{
+  text-decoration: underline;
+}
+
+
+
+
+
+
+.scroll-links {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  
+}
+
+.scroll-link {
+  
+  color: rgb(7, 7, 7);
+  padding: 6px 6px;
+  border-radius: 6px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 18px;
+ 
+}
+

@@ -1,0 +1,26 @@
+.image{
+    padding: 10px;
+    height: auto;
+    position: absolute;
+}
+
+
+.header{
+    justify-content: center;
+     width: 23%;
+    justify-content: left;
+    position: absolute;
+    padding: 20px;
+    bottom: -20px;
+}
+
+.header > .paragraf{
+    font-size:18px; 
+    font-weight: bold;
+     line-height:1.4;
+     margin-bottom: 40px;
+}
+
+
+
+
